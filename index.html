@@ -1,112 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>praktyka</title>
-    <link rel="stylesheet" href="./index.html">
-</head>
-
-<body>
-    <header>
-        <section>
-            <div class="container">
-                <img src="./img/explorer.png" alt="explorer">
-                <ul class="header-list">
-                    <li class="header-item">
-                        <a class="header-sender" href="">home</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-send" href="">blog</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-send" href="">Categories</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-send" href="">Pick category</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-send" href="">About us</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-send" href="">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <img src="./img/bg.png" alt="bg">
-                    <img src="./img/luke.png" alt="luke">
-                    <h3>Luke Cage</h3>
-                    <p>Octoder 11, 2016</p>
-                    <h2>The 10 most beautiful places you should visit in your life</h2>
-                    <p>Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi sit amet neque finibus
-                        vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at turpis nec metus pharetra
-                        bibendum. Vivamus id urna et leo blandit consequat. <a href="#">Continue Reading-></a></p>
-
-                </li>
-                <li>
-                    <img src="./img/bg2.png" alt="bg2">
-                    <img src="./img/jessica.png" alt="jessica">
-                    <h3>Jessica Simpson</h3>
-                    <p>June 12, 2016</p>
-                    <h2>Perfect gear to take with you if you go on a photography trip</h2>
-                    <p>Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi sit amet neque finibus
-                        vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at turpis nec metus pharetra
-                        bibendum. Vivamus id urna et leo blandit consequat. <a href="#">Continue Reading-></a></p>
-                </li>
-                <li>
-                    <img src="./img/bg3.png" alt="bg3">
-                    <img src="./img/luke.png" alt="luke">
-                    <h3>Luke Cage</h3>
-                    <p>june 12, 2016</p>
-                    <h2>We are looking for another photographer to join our group</h2>
-                    <p>Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi sit amet neque finibus
-                        vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at turpis nec metus pharetra
-                        bibendum. Vivamus id urna et leo blandit consequat. <a href="#">Continue Reading-></a></p>
-                </li>
-            </ul>
-            <h1>Want to read more?</h1>
-            <button>visit blog archive</button>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <section class="logo-cont">
+        <div class="container">
+          <img src="./img/explorer.png" alt="logotyp" />
+          <ul class="header-menu">
+            <li class="header-list">
+              <a class="header-item" href="#">Home</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="#">Blog</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="#">Categories</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="#">Pick category</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="#">About us</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
-    <main>
-        <h1>Featured Stories</h1>
-        <h3>Did you read our personal favorites?</h3>
-        <ul>
+    <main class="main">
+      <section class="travel">
+        <div class="container">
+          <ul>
             <li>
-                <img src="./img/bg.png" alt="bg">
-                <img src="./img/luke.png" alt="luke">
-                <h3>Luke Cage</h3>
-                <p>Oct 11, 2016</p>
-                <p>The 10 most beautiful places you should visit in your life</p>
+              <p class="post-name">Travel</p>
+              <img
+                class="travel-luke-bg"
+                src="./img/bg.png"
+                alt="montain"
+              />
+              <img class="travel-luke"
+                src="./img/luke.png"
+                alt="luke"
+              />
+              <p class="name">Luke Cage</p>
+              <p class="travel-date">October 11, 2016</p>
+              <h2 class="travel-note">
+                The 10 most beautiful places you should visit in your life
+              </h2>
+              <h3 class="travel-description">
+                Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac
+                turpis egestas. Duis posuere nisi sit amet neque finibus
+                vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at
+                turpis nec metus pharetra bibendum. Vivamus id urna et leo
+                blandit consequat.
+              </h3>
+              <a class="info" href="#">Continue Reading →</a>
             </li>
             <li>
-                <img src="./img/bg4.png" alt="bg4">
-                <img src="./img/jessica.png" alt="Jessica">
-                <h3>Jessica Simpson</h3>
-                <p>Jun 12, 2016</p>
-                <p>We found the most beautiful place for our party november</p>
+              <p class="post-name">Photography</p>
+              <img
+                class="travel-jessica-bg"
+                src="./img/bg2.png"
+                alt="book-and-map"
+              />
+              <img
+                class="travel-jessica"
+                src="./img/jessica.png"
+                alt="jessica"
+              />
+              <p class="travel-name">Jessica Simpson</p>
+              <p class="travel-date">June 12, 2016</p>
+              <h2 class="travel-note">
+                Perfect gear to take with you if you go on a photography trip
+              </h2>
+              <h3 class="travel-description">
+                Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac
+                turpis egestas. Duis posuere nisi sit amet neque finibus
+                vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at
+                turpis nec metus pharetra bibendum. Vivamus id urna et leo
+                blandit consequat.
+              </h3>
+              <a class="info" href=" # ">Continue Reading -></a>
             </li>
             <li>
-                <img src="./img/bg5.png" alt="bg5">
-                <img src="./img/luke.png" alt="luke">
-                <h3>Luke Cage</h3>
-                <p>Jun 12, 2016</p>
-                <p>Why New York is still our favorite city to visit</p>
+              <p class="travel-poster-name">Photography</p>
+              <img class="travel-luke-bg" src="./img/bg3.png" alt="lake" />
+              <img
+                class="travel-luke"
+                src="./img/luke.png"
+                alt="luke"
+              />
+              <p class="travel-name">Luke Cage</p>
+              <p class="travel-date">June 12, 2016</p>
+              <h2 class="travel-note">
+                We are looking for another photographer to join our group
+              </h2>
+              <h3 class="travel-description">
+                Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac
+                turpis egestas. Duis posuere nisi sit amet neque finibus
+                vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at
+                turpis nec metus pharetra bibendum. Vivamus id urna et leo
+                blandit consequat.
+              </h3>
+              <a class="info" href="#">Continue Reading →</a>
             </li>
-        </ul>
+          </ul>
+        </div>
+      </section>
+      <section class="read-more">
+        <div class="container">
+          <h2 class="want-read-more">Want to read more?</h2>
+          <button class="button" type="button">Visit Blog Archive</button>
+        </div>
+      </section>
+      <section class="Featured">
+        <div class="container">
+          <h1 class="Featured-title">Featured Stories</h1>
+          <h2 class="Featured-description">Did you read our personal favorites?</h2>
+          <ul>
+            <li>
+              <img
+                class="Featured-image"
+                src="./img/bg.png"
+                alt="mountain"
+              />
+              <img class="Featured-luke" src="./img/luke.png" alt="luke" />
+              <p class="featured-name">Luke Cage</p>
+              <p class="featured-date">Oct 11, 2016</p>
+              <h3 class="featured-note">
+                The 10 most beautiful places you should visit in your life
+              </h3>
+            </li>
+            <li>
+              <img
+                class="Featured-image"
+                src="./img/bg4.png"
+                alt="sea"
+              />
+              <img
+                class="Featured-jessica"
+                src="./img/jessica.png"
+                alt="jessica"
+              />
+              <p class="featured-name">Jessica Simpson</p>
+              <p class="featured-date">Jun 12, 2016</p>
+              <h3 class="featured-note">
+                We found the most beautiful place for our party november
+              </h3>
+            </li>
+            <li>
+              <img class="Featured-image" src="./img/bg5.png" alt="city" />
+              <img class="Featured-image" src="./img/luke.png" alt="luke" />
+              <p class="featured-name">Luke Cage</p>
+              <p class="featured-date">Jun 12, 2016</p>
+              <h3 class="featured-note">
+                Why New York is still our favorite city to visit
+              </h3>
+            </li>
+          </ul>
+          <p class="want">Want to read all of our stories?</p>
+          <a class="want-more" href="#">Read the full blog</a>
+        </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+      <section class="last-section">
+        <div class="container">
+          <ul class="footer-menu">
+            <li class="footer-list">
+              <p class="footer-owner">Copyright © Explorer</p>
+            </li>
+            <li class="footer-list">
+              <p class="footer-owner">
+                - Images used for demonstration purpose only
+              </p>
+              <a class="footer-link" href="#">( Licenses)</a>
+            </li>
+            <li class="footer-list">
+              <p class="footer-owner">Copyright ©</p>
+              <a class="footer-link" href="#">Studio Corvus</a>
+            </li>
+            <li class="footer-list">
+              <p class="footer-owner">Powered by</p>
+              <a class="footer-link" href="#">Webflow</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
-</body>
-
+  </body>
 </html>

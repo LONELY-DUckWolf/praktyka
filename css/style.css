@@ -1,0 +1,162 @@
+:root {
+    --text-color: #fff;
+    --travel: #333;
+    --link-text: #8d4fdb;
+    --travel-mini: #a9afb3;
+    --footer-text: #8b8b8b;
+    --featured-travel-color: #000;
+    --main: #e5c298;
+  }
+  
+  .container {
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    outline: blueviolet solid;
+  }
+  .body {
+    background-color: var(--main);
+    font-family: lato;
+  }
+  .header {
+    padding-top: 50px;
+    padding-bottom: 64px;
+  }
+  .header-item {
+    color: var(--text-color);
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 1.3px;
+  }
+  .travel {
+    padding-bottom: 35px;
+  }
+  .treavel-poster-name {
+    color: var(--text-color);
+    font-size: 8px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  .travel-name {
+    color: var(--text-color);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .travel-date {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .travel-note {
+    color: var(--text-color);
+    font-size: 28px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 35px;
+  }
+  .travel-description {
+    color: var(--travel);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .read-more {
+    background-color: var(--wt-bg);
+    padding-top: 49px;
+    padding-bottom: 159px;
+  }
+  .want-read-more {
+    color: var(--travel);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .button {
+    color: var(--text-color);
+    background-color: var(--link-text);
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  .Featured {
+    padding-top: 85px;
+    padding-bottom: 90px;
+  }
+  .Featured-title {
+    color: var(--travel);
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .Featured-description {
+    color: var(--travel-mini);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+  .featured-name {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .featured-date {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .featured-note {
+    color: var(--featured-travel-color);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .wt-list {
+    background-color: var();
+  }
+  .want {
+    color: var(--travel);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .want-more {
+    color: var(--link-text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .footer {
+    background-color: var(--featured-travel-color);
+    padding-top: 55px;
+    padding-bottom: 45px;
+  }
+  
+  .footer-owner {
+    color: var(--footer-text);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .footer-link {
+    color: var(--link-text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+  }
